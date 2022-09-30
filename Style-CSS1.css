@@ -1,0 +1,136 @@
+@font-face{
+  font-family: 'SUMUR BOR';
+  src: url("OriginTech personal use.ttf");
+}
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding:0px;
+  font-family: 'SUMUR BOR';
+}
+
+html {
+  margin: auto;
+  max-width: 1440px;
+  font-size: 10px;
+  background-color: #ffffff;
+}
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 4rem;
+  color: #ff0000;
+  border-bottom: 2px solid #ff0000;
+  box-shadow: 0 15px 20px rgb(255, 0, 0);
+}
+
+nav .nav-brand {
+  font-size: 4rem;
+  font-weight: initial;
+  cursor: pointer;
+  transition: all 0.3s;
+  align-items: center;
+  font-family: 'SUMUR BOR';
+}
+nav .nav-section {
+  display: flex;
+  align-items: center;
+}
+nav .nav-section ul {
+  list-style: none;
+}
+
+nav .nav-section ul li {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 7rem;
+}
+
+nav .nav-section ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  transition: all 0.3s;
+}
+nav .nav-brand:hover,
+nav .nav-section:hover {
+  color: #f4f8f5;
+}
+/*akir nav*/
+
+/* head */
+header {
+  display: flex;
+  color: #ff0000;
+  height: 526px;
+}
+header .bag-satu {
+  flex-basis: 50%;
+  padding: 11%;
+}
+header .bag-satu .text-hello {
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: 'SUMUR BOR';
+}
+header .bag-satu p {
+  font-size: 1.5rem;
+}
+header .bag-dua {
+  flex-basis: 50%;
+  margin-top: 3%;
+  margin-right: -11%;
+}
+
+.gambar {
+  width: 400px;
+}
+.btn-info {
+  background: #000000;
+  border-radius: 25px;
+  margin-left: -03%;
+  margin-top: 15px;
+  padding: 15px 35px 15px 35px;
+  color: #ff0000;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+.btn-info:hover {
+  background: #ff0000;
+  text-decoration: solid;
+}
+#profil {
+  display: block;
+  margin-top: 170px;
+  border-top: 20px solid #f0ecf4;
+  box-shadow: 0 0px 0px rgb(247, 249, 245);
+  text-align: center;
+}
+.hai {
+  margin-top: 150px;
+  font-size: 3rem;
+  margin: auto;
+}
+p {
+  margin-top: 5rem;
+  font-family: Verdana, sans-serif;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+.aku {
+  font-size: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.lorem {
+  font-size: 2rem;
+  display: flex;
+  /* padding: 20px; */
+}
